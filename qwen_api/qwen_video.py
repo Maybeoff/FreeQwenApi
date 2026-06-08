@@ -79,8 +79,7 @@ class QwenVideoAPI:
         
         msg_fid = str(uuid.uuid4())
         current_ts = int(time.time())
-        
-        # Payload, собранный на базе твоих новых логов для t2v
+
         payload = {
             "stream": True,
             "version": "2.1",

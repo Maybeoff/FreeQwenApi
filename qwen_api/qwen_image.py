@@ -58,8 +58,7 @@ class QwenImageAPI:
         
         msg_fid = str(uuid.uuid4())
         current_ts = int(time.time())
-        
-        # Данные полностью скопированы из твоего HAR лога
+
         payload = {
             "stream": True,
             "version": "2.1",
